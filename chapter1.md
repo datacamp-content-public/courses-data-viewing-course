@@ -23,10 +23,10 @@ This is an example exercise on Data viewing.
 
 `@pre_exercise_code`
 ```{r}
-global_temp <- read.csv("DAX_2019-04-12.csv")
-global_temp.info()
-plot(global_temp)
-ls()
+global_temp <- read.csv("DAX_2019-04-12.csv",sep='\t',header=TRUE)
+#global_temp.info()
+#plot(global_temp)
+#ls()
 
 ```
 
