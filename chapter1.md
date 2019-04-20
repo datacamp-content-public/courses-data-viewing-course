@@ -27,6 +27,7 @@ global_temp <- read.csv("DAX_2019-04-12.csv")
 global_temp.info()
 plot(global_temp)
 ls()
+
 ```
 
 `@sample_code`
